@@ -529,10 +529,7 @@
 
     // Theme Toggle
     const themeToggle = document.getElementById('themeToggle');
-    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-    let isDark = prefersDark;
-    
-    if (isDark) document.body.parentElement.setAttribute('data-theme', 'dark');
+    let isDark = false;
     
     themeToggle.addEventListener('click', () => {
       isDark = !isDark;
