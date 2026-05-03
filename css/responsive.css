@@ -1,0 +1,56 @@
+/* Responsive Breakpoints */
+
+/* Large screens (Desktops, 1200px and up) */
+@media (max-width: 1200px) {
+  :root {
+    --spacing-xxl: 6rem;
+  }
+  
+  .container {
+    max-width: 960px;
+  }
+}
+
+/* Medium screens (Tablets, 992px and down) */
+@media (max-width: 992px) {
+  :root {
+    --spacing-xxl: 5rem;
+  }
+
+  .container {
+    max-width: 720px;
+  }
+  
+  html {
+    font-size: 15px; /* Slightly smaller typography */
+  }
+}
+
+/* Small screens (Mobile landscapes, 768px and down) */
+@media (max-width: 768px) {
+  :root {
+    --spacing-xxl: 4rem;
+    --spacing-xl: 3rem;
+  }
+
+  .container {
+    max-width: 100%;
+    padding: 0 var(--spacing-md);
+  }
+  
+  /* Adjust custom cursor on mobile */
+  .custom-cursor {
+    display: none !important;
+  }
+}
+
+/* Extra small screens (Mobile portrait, 576px and down) */
+@media (max-width: 576px) {
+  :root {
+    --spacing-xxl: 3rem;
+  }
+  
+  html {
+    font-size: 14px;
+  }
+}

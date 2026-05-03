@@ -1,0 +1,10 @@
+{
+  "name": "guru-portfolio",
+  "version": "1.0.0",
+  "description": "Premium portfolio website",
+  "scripts": {
+    "start": "npx serve ."
+  },
+  "author": "Guru Prashath.R",
+  "license": "ISC"
+}

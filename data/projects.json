@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "title": "Project Alpha",
+    "description": "A revolutionary web application built with modern frameworks.",
+    "image": "assets/images/projects/project1.jpg",
+    "link": "#",
+    "tags": ["React", "Node.js", "MongoDB"]
+  },
+  {
+    "id": 2,
+    "title": "Project Beta",
+    "description": "An e-commerce platform with seamless user experience.",
+    "image": "assets/images/projects/project2.jpg",
+    "link": "#",
+    "tags": ["Vanilla JS", "CSS3", "Firebase"]
+  }
+]
