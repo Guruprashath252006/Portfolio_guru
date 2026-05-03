@@ -2,7 +2,7 @@
 
 Welcome to the repository for my personal portfolio website. Designed with a modern "Swiss Brutalist" aesthetic, this site showcases my technical skills, work experience, and featured full-stack projects.
 
-🔗 **Live Preview:** [guruprashath252006.github.io](https://guruprashath252006.github.io)
+🔗 **Live Preview:** [guruprashath252006.github.io](https://portfolio-guru-ebon.vercel.app/)
 
 ## ⚡ Features
 - **Brutalist UI Design:** High contrast, sharp edges, and system-native typography.
